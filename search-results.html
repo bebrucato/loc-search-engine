@@ -6,10 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="search.css" />
+  
     <title>Document</title>
 </head>
 <body>
+    <div class="container d-flex">
+        <!-- Content here -->
+        <form class="d-flex search-form justify-content-start">
+                <div class="col">
+              <div class="col-md-3 mb-3 ">
+                <label for="textInput" class="form-label">Library of Congress Search Engine</label>
+                <input type="text" id="textInput1" class="form-control" placeholder="Search!">
+              </div>
+              <div class="col-md-3 mb-3 justify-content-start">
+                <select id="select1" class="form-select">
+                  <option>select</option>
+                </select>
+              </div>
+              <div class="col-md-3 mb-3 justify-content-flex-start">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            </div>
+          </form>
+      </div>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="script.js"></script>   
