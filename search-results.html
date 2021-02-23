@@ -13,27 +13,34 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container d-flex">
-        <!-- Content here -->
-        <form class="d-flex search-form justify-content-start">
-                <div class="col">
-              <div class="col-md-3 mb-3 ">
-                <label for="textInput" class="form-label">Library of Congress Search Engine</label>
-                <input type="text" id="textInput1" class="form-control" placeholder="Search!">
-              </div>
-              <div class="col-md-3 mb-3 justify-content-start">
-                <select id="select1" class="form-select">
-                  <option>select</option>
-                </select>
-              </div>
-              <div class="col-md-3 mb-3 justify-content-flex-start">
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-            </div>
-          </form>
-      </div>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="search.js"></script>   
-</body>
+    <body>
+        <div class="row">
+          <div class="col-4 container d-flex justify-content-center">
+            <!-- Content here -->
+            <form class="d-flex search-form">
+                    <div class="row">
+                      <div class="col-12 mb-3">
+                        <label for="textInput" class="form-label">Library of Congress Search Engine</label>
+                        <input type="text" id="textInput1" class="form-control" placeholder="Search!">
+                    </div>
+                    <div class="col-12 mb-3">
+                      <select id="select1" class="form-select">
+                        <option>select</option>
+                      </select>
+                    </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                  </div>
+            </form>
+          </div>
+          <div class="col 8">
+            <!-- PUT THE SEARCH IN HERE -->
+            <p>testing testing check check czech</p>
+          </div>
+        </div>
+          <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+          <script src="search.js"></script>
+      </body>
 </html>
